@@ -1,34 +1,32 @@
-# Job-Invitation-Assignment-
+# Job-Invitation-Assignment
 This Project is an Answer for an Interview Assignment.
-# DepartmentManager
-DepartmentManager is a web application built with ASP.NET Core 5.0 using CQRS and MediatR patterns, Entity Framework Core and SQL Server.
+# Department Manager API
+This is a sample ASP.NET Core API for managing departments. It includes endpoints for creating, retrieving, updating, and deleting departments.
 
-# Prerequisites -
-Before running this application, ensure that you have the following installed on your machine:
+# Prerequisites
+.NET 5 SDK
+Microsoft SQL Server
+# Running the API
+Clone this repository: git clone https://github.com/example/DepartmentManager.git
+Navigate to the project directory: cd DepartmentManager
+Restore packages: dotnet restore
+Update the database: dotnet ef database update
+Run the application: dotnet run
+The API will be available at https://localhost:5001.
+# Endpoints
+GET /api/departments: Retrieves all departments.
+GET /api/departments/{id}: Retrieves a specific department by ID.
+POST /api/departments: Creates a new department.
+PUT /api/departments/{id}: Updates an existing department by ID.
+DELETE /api/departments/{id}: Deletes a department by ID.
+# Technologies Used
+ASP.NET Core 5
+Entity Framework Core 5
+Microsoft SQL Server
+Swagger/OpenAPI
+Newtonsoft.Json
+# Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-.NET 6 SDK or higher
-SQL Server or SQL Server Express
-# Getting Started -
-To get started with the DepartmentManager application:
-
-Clone this repository onto your local machine.
-Navigate to the root directory of the project.
-
-Run the following command to create the database:
-
-dotnet ef database update
-
-Run the following command to start the application:
-
-dotnet run
-Open your web browser and navigate to https://localhost:5001/swagger/index.html to view the Swagger documentation.
-Usage
-The DepartmentManager application allows you to perform CRUD operations on departments. You can use the Swagger documentation to test these operations.
-
-# Technologies -
-ASP.NET Core 5.0
-MediatR library
-Entity Framework Core
-SQL Server
-# Contributing -
-Contributions are welcome! If you find a bug or have a feature request, please open an issue.
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.

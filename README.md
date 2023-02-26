@@ -14,7 +14,7 @@ Microsoft SQL Server
 
 # Running the API
 
-Clone this repository: git clone https://github.com/example/DepartmentManager.git
+Clone this repository: git clone https://github.com/JOSSYJR/Job-Invitation-Assignment-.git
 
 Navigate to the project directory: cd DepartmentManager
 

@@ -39,6 +39,8 @@ DELETE /api/departments/{id}: Deletes a department by ID.
 
 # Technologies Used
 
+CQRS pattern
+
 ASP.NET Core 6
 
 Entity Framework Core 6

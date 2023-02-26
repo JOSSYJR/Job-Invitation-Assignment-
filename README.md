@@ -24,7 +24,7 @@ Update the database: dotnet ef database update
 
 Run the application: dotnet run
 
-The API will be available at https://localhost:5001.
+The API will be available at https://localhost:3001.
 
 # Endpoints
 GET /api/departments: Retrieves all departments.
